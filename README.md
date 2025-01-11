@@ -2,7 +2,14 @@
 
 Esse projeto esta sendo desenvolvido usando o [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Dependenncias
+axios
+cra-remplate
+react
+react-dom
+react-route-dom
+react-scrips
+web-vitals
 
 In the project directory, you can run:
 
