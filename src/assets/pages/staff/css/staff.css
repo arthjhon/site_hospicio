@@ -1,0 +1,180 @@
+@import "../../global/css/footer.css";
+@import "../../global/css/header.css";
+@import "../../global/css/variables.css";
+@import "../../global/css/reset.css";
+
+
+
+.corpo-site .conteudo-staff{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-pagina-staff{
+    text-align: center;
+    margin: 50px;
+}
+
+
+.titulo-cargo h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+.cards-staff-admin {
+    display: flex;
+    flex-direction: row;
+    border: 0 200px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 25px;
+}
+
+.cards-staff-diretoria{
+    display: flex;
+    flex-direction: row;
+    border: 0 200px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 25px;
+}
+
+.cards-staff-membros{
+    display: flex;
+    flex-direction: row;
+    border: 0 200px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 25px;
+
+}
+.card-staff {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background-color: #1a1a1a;
+    margin: 20px 20px ;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.staff-info {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 30px; /* Arredonda o canto superior esquerdo */
+    border-top-right-radius: 30px; /* Arredonda o canto superior direito */
+    border-bottom-left-radius: 0; /* Deixa o canto inferior esquerdo reto */
+    border-bottom-right-radius: 0; /* Deixa o canto inferior direito reto */
+
+}
+
+.form
+::placeholder {
+    font-family: 'Ubuntu';
+    color:darkgrey;
+}
+
+
+
+
+
+.card-staff .staff-info:hover {
+    opacity: 1;
+
+}
+
+.staff-info h5 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.staff-info p {
+    text-align: justify;
+    font-size: 15px;
+    margin: 10px 20px;
+}
+
+.card-staff h4 {
+    margin: 10px 0px;
+}
+
+.nome-staff {
+    margin-top: 0px;
+}
+
+.link-staff {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.link-staff a{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-size: 30px;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.link-staff a:hover {
+    color: var(--cor-hover-link);
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+}
+
+.foto-staff {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #0d0d0d;
+    border-top-left-radius: 30px; /* Arredonda o canto superior esquerdo */
+    border-top-right-radius: 30px; /* Arredonda o canto superior direito */
+    border-bottom-left-radius: 0; /* Deixa o canto inferior esquerdo reto */
+    border-bottom-right-radius: 0; /* Deixa o canto inferior direito reto */
+    overflow: hidden;
+}
+
+.foto-staff img {
+    display: flex;
+    width: auto;
+    height: 250px;
+    justify-items: center;
+    justify-content: center;
+    object-fit: cover;
+}

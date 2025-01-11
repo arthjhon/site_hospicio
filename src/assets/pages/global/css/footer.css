@@ -1,0 +1,69 @@
+/* ˅˅FOOTER˅˅ */
+@import "./variables.css";
+@import "./reset.css";
+
+footer {
+    background-color: var(--cor-backgroud-default-header-footer);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+    list-style: none;
+    font-family: "Ubuntu", sans-serif;
+    list-style: none;
+    width: 100%;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+#social-container{
+    width: 100%;
+    text-align: center;
+}
+
+.social-icons{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    color: var(--cor-hover-link);
+}
+
+.copyrights {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px ;
+    font-size: 14px;
+    
+}
+
+.copyrights a:hover {
+    color: var(--cor-hover-link);
+    transition: color 0.3s ease-in-out;
+}
+/*^^HEADER E FOOTER^^ */
