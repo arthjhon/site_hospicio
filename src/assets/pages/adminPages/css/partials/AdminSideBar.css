@@ -1,0 +1,85 @@
+@import "../../../global/css/footer.css";
+@import "../../../global/css/header.css";
+@import "../../../global/css/variables.css";
+@import "../../../global/css/reset.css";
+
+
+/* Estilos específicos para o AdminSideBar */
+.admin-sidebar {
+    width: 250px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    position:relative;
+    position: fixed;
+    top: 200px;
+    
+  }
+  
+  .admin-sidebar .nav-mle {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  
+  .admin-sidebar .header-mle {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .admin-sidebar .icone-header {
+    margin-right: 10px;
+  }
+  
+  .admin-sidebar .botoes-mle {
+    margin-top: 20px;
+  }
+  
+  .admin-sidebar .buttao-mngr-member {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid var(--cor-hover-link);
+    width: 80%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+  
+  .admin-sidebar .buttao-mngr-member:hover {
+    background-color: var(--cor-hover-link);
+    transition: background 0.3s ease-in;
+  }
+  
+  /* Estilos adicionais para o layout da página administrativa */
+  .admin-page-container {
+    display: flex;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .admin-page-container .main-content {
+    margin-left: 250px; /* Espaço para a sidebar */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .admin-page-container .form-container {
+    width: 60%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

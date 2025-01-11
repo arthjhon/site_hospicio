@@ -1,0 +1,116 @@
+@import "./variables.css";
+@import "./reset.css";
+
+html {
+    scroll-behavior: smooth;
+}
+/* HEADER E FOOTER */
+/* ˅˅HEADER˅˅ */
+header, .header-site {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-site{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding-top: 10px; 
+    font-weight:600;
+}
+
+.navbar, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-site {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0d0d0d;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.navbar ul li a.active, .navbar ul li a:hover {
+    background-color: var(--cor-hover-link);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.navbar ul li a.active {
+    background-color: var(--cor-hover-link);
+    color: #fff;
+    font-weight: bold;
+}
+
+.cadastro-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cadastro-buttons .bttn-signup {
+    display: flex;
+    padding: 8px 15px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: "Ubuntu", sans-serif;
+    gap: 5px;
+}
+
+.cadastro-buttons .bttn-signup:hover {
+    background-color: var(--cor-hover-link);
+    border-color: var(--cor-hover-link);
+}
+/* ^^HEADER^^ */
