@@ -3,8 +3,8 @@
 Esse projeto esta sendo desenvolvido usando o [Create React App](https://github.com/facebook/create-react-app).
 
 ## Dependenncias
-axios
-cra-remplate
+#### `axios`
+#### `cra-remplate`
 react
 react-dom
 react-route-dom
