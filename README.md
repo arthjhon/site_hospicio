@@ -23,4 +23,23 @@ Siga as etapas abaixo para instalar e rodar este projeto localmente.
 Clone o repositório para sua máquina local:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/backendhospic.git
+git clone https://github.com/SEU_USUARIO/site_hospic.git
+```
+### 2. Navegue até a pasta do projeto:
+```bash
+cd site_hospic
+```
+### 3. Instalar Dependências
+Instale as dependencias acima usando o 
+```bash
+npm install
+```
+### 4. Rodar o Projeto Localmente
+Utilize o comando abaixo para iniciar o site localmente.
+```bash
+npm start
+```
+
+### 5. Conectar ao Banco de Dados:
+Acesse [backendhospic](https://github.com/arthjhon/backendhospic)
+Faça download dos arquivos e siga o passo a passo descrito na pagina.
