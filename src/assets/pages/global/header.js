@@ -1,13 +1,13 @@
 import React from 'react'
 import './css/header.css'
-import logoHospic from '../../../assets/src/logos/hospic_logos/logoHospic.png'
+import LogoHospic from "../../src/logos/hospic_logos/logoHospic.png"
 
 function Header() {
   return (
     <header className='header-site'>
         <div className="logo">
-            <img src={logoHospic} alt="Logo" />
-            <span>Hospicio do Zikaloka</span>
+            <img src={LogoHospic} alt="Logo" />
+            <span></span>
         </div>
         <nav className="navbar">
             <ul>
@@ -23,7 +23,7 @@ function Header() {
             </li>
             <li>
                 <a href="/campeonatos">
-                <i className="fa-solid fa-trophy" /> Copa Hospic
+                <i className="fa-solid fa-trophy" /> Campeonatos
                 </a>
             </li>
             <li>
@@ -38,12 +38,8 @@ function Header() {
             </li>
             </ul>
         </nav>
-        <div className="cadastro-buttons">
-            <a href="https://google.com">
-            <button className="bttn-signup">
-                <i className="fa-solid fa-ticket" /> Inscreva-se
-            </button>
-            </a>
+        <div>
+
         </div>
     </header>
 

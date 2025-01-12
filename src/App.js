@@ -5,7 +5,7 @@ import Staff from './assets/pages/staff/staff';
 import Home from './assets/pages/home/home';
 import AdminPanel from './assets/pages/adminPages/AdminPanel';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Importação correta
-import Campeonatos from './assets/pages/campeonatos/campeonatos';
+import Container_times from './assets/pages/campeonatos/partials/container_times';
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
       <Header />
       <main className='main-conteudo'>
         <Routes>
-          <Route path="/staff" element={<Staff />} />
           <Route path="/" element={ <Home /> } />
+          <Route path="/staff" element={<Staff />} />
+          <Route path="/campeonatos" element= {<Container_times/>} />
           <Route path="/painel" element={< AdminPanel/>} />
-          <Route path="/campeonatos" element= {<Campeonatos/>} />
         </Routes>
       </main>
       <Footer />
