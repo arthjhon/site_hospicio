@@ -1,15 +1,6 @@
 @import "../../../global/css/header.css";
 @import "../../../global/css/footer.css";
-@import "../../../global/css/reset.css";
-@import "../../../global/css/variables.css";
 
-
-* {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 a {
     text-decoration: none;
