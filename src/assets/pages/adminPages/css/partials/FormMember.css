@@ -1,7 +1,6 @@
 @import "../../../global/css/footer.css";
 @import "../../../global/css/header.css";
-@import "../../../global/css/variables.css";
-@import "../../../global/css/reset.css";
+
 body .conteudo-panel {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;

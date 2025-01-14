@@ -1,11 +1,4 @@
-@import "../../global/css/footer.css";
-@import "../../global/css/header.css";
-@import "../../global/css/variables.css";
-@import "../../global/css/reset.css";
-
-
-
-.corpo-site .conteudo-staff{
+.conteudo-staff{
     font-family: 'Ubuntu', sans-serif;
     background-color: #121212;
     color: #ffffff;

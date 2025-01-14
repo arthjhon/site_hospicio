@@ -9,7 +9,7 @@ import IconRIFLER from "../../../src/icons/cs2_role-icon/icon-rifler.svg"
 import IconCOACH from "../../../src/icons/cs2_role-icon/icon-coach.svg"
 import iconSUPPORT from "../../../src/icons/cs2_role-icon/icon-support.svg"
 
-function Container_times() {
+function ContainerTimes() {
   return (
 <div className="container">
 <div className="team-container">
@@ -30,7 +30,7 @@ function Container_times() {
               alt="IGL"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -41,7 +41,7 @@ function Container_times() {
               alt="Lurker"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -52,7 +52,7 @@ function Container_times() {
               alt="Entry"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -63,7 +63,7 @@ function Container_times() {
               alt="Support"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -74,7 +74,7 @@ function Container_times() {
               alt="Rifler"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -89,7 +89,7 @@ function Container_times() {
             alt="Coach"
             className="role-icon"
           />
-          <a href="" target="_blank">
+          <a href="https://google.com" target="_blank" rel="noreferrer">
             {" "}
             TBD{" "}
           </a>
@@ -115,7 +115,7 @@ function Container_times() {
               alt="IGL"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -126,7 +126,7 @@ function Container_times() {
               alt="Lurker"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -137,7 +137,7 @@ function Container_times() {
               alt="Entry"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -148,7 +148,7 @@ function Container_times() {
               alt="Support"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -159,7 +159,7 @@ function Container_times() {
               alt="Rifler"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -174,7 +174,7 @@ function Container_times() {
             alt="Coach"
             className="role-icon"
           />
-          <a href="" target="_blank">
+          <a href="https://google.com" target="_blank" rel="noreferrer">
             {" "}
             TBD{" "}
           </a>
@@ -200,7 +200,7 @@ function Container_times() {
               alt="IGL"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -211,7 +211,7 @@ function Container_times() {
               alt="Lurker"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -222,7 +222,7 @@ function Container_times() {
               alt="Entry"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -233,7 +233,7 @@ function Container_times() {
               alt="Support"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -244,7 +244,7 @@ function Container_times() {
               alt="Rifler"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -259,7 +259,7 @@ function Container_times() {
             alt="Coach"
             className="role-icon"
           />
-          <a href="" target="_blank">
+          <a href="https://google.com" target="_blank" rel="noreferrer">
             {" "}
             TBD{" "}
           </a>
@@ -285,7 +285,7 @@ function Container_times() {
               alt="IGL"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -296,7 +296,7 @@ function Container_times() {
               alt="Lurker"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -307,7 +307,7 @@ function Container_times() {
               alt="Entry"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -318,7 +318,7 @@ function Container_times() {
               alt="Support"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -329,7 +329,7 @@ function Container_times() {
               alt="Rifler"
               className="role-icon"
             />
-            <a href="" target="_blank">
+            <a href="https://google.com" target="_blank" rel="noreferrer">
               {" "}
               TBD{" "}
             </a>
@@ -344,7 +344,7 @@ function Container_times() {
             alt="Coach"
             className="role-icon"
           />
-          <a href="" target="_blank">
+          <a href="https://google.com" target="_blank" rel="noreferrer">
             {" "}
             TBD{" "}
           </a>
@@ -356,4 +356,4 @@ function Container_times() {
   )
 }
 
-export default Container_times
+export default ContainerTimes

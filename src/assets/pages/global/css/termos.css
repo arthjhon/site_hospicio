@@ -1,0 +1,43 @@
+.container-termos-de-uso {
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 900px;
+    color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #121212;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+
+.section1 h1 {
+    text-align: center;
+    font-size:  32px;
+    margin-bottom: 75px;
+}
+
+.section1 h2 {
+    padding-top: 25px ;
+}
+
+.section1 p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+.section1 ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.coleta .info-coleta {
+    padding-top: 5px;
+    background-color: #121212;
+    list-style: decimal;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

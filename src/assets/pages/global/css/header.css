@@ -1,5 +1,3 @@
-@import "./variables.css";
-@import "./reset.css";
 
 html {
     scroll-behavior: smooth;
@@ -23,6 +21,7 @@ header, .header-site {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #0d0d0d;
 }
 
 .header-site {
@@ -41,16 +40,19 @@ header, .header-site {
     display: flex;
     align-items: center;
     gap: 15px;
+    background-color: #0d0d0d;
 }
 
 .logo img {
     height: 40px;
+    background-color: #0d0d0d;
 }
 
 .logo span {
     font-size: 20px;
     font-weight: bold;
     color: #fff;
+    background-color: #0d0d0d;
 }
 
 .navbar ul {
@@ -58,13 +60,20 @@ header, .header-site {
     display: flex;
     gap: 20px;
     align-items: center;
+    background-color: #0d0d0d;
 }
 
 .navbar ul li {
     position: relative;
+    background-color: #0d0d0d;
+}
+
+li {
+    background-color: transparent;
 }
 
 .navbar ul li a {
+    background-color: transparent;
     text-decoration: none;
     color: #fff;
     font-size: 16px;
@@ -74,6 +83,10 @@ header, .header-site {
     padding: 5px 10px;
     border-radius: 15px;
     transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.fas, .fa-solid {
+    background-color: transparent;
 }
 
 .navbar ul li a.active, .navbar ul li a:hover {
